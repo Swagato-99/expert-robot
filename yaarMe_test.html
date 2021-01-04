@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="yaarMe_test.css"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+     body{
+    font-family: 'Open Sans', sans-serif;
+}    
+    
+#header-background{
+    height:7rem;
+    width:100%;
+}
+
+header{
+    background-image:url(https://static-exp1.licdn.com/sc/h/cn3fr66ht7m34az3utaneh6ld);
+    background-size:cover;
+    height:10px;
+    /* position: absolute;
+    left:-60px; */
+    
+}
+.container{
+    border-bottom: 5px solid grey;
+}
+.image {
+    position: absolute;
+    top: 50px;
+    /* half of image height */
+    left: 40px;
+    /* right space */
+  }
+  
+.image img {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: green;
+  }
+
+.description{
+    margin-top: 100px;
+    display:flex;
+}
+.description.div:nth-child(2) div{
+    /* position:Absolute; */
+    justify-self:end;
+}
+
+#followers{
+    color:aqua;
+}
+.companyDescrip{
+    margin: 0px auto;
+}
+.compLogo{
+    margin:5px 0px;
+}
+#postAlert{ 
+    border-bottom: 2px solid lightgrey;
+    padding:15px 0px;
+}
+.img-size{
+    height:7rem;
+    width:7rem;
+}
+.container2{
+    position :relative;
+    
+}
+.uprConta2{
+    background:white;
+    background-image:url(https://media-exp1.licdn.com/dms/image/C4E0BAQHmSa2cwdhi0Q/company-logo_200_200/0/1601580816436?e=1617840000&v=beta&t=NvaHza34VzedUCboarRuq3PbVVtkHVFtLT0A07Iv6fc);
+    background-size:cover;
+}
+.flexContent{
+    display:flex;
+}
+.flexContent:nth-of-type(2) div{
+    justify-self: right;
+}
+.space{
+    height:250px;
+    
+}
+
+.footerend{
+    background:white;
+    display:flex;
+    justify-content:space-between
+}
+#bolder{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.edit{
+    position:fixed;
+    height: 50px;
+    width: 50px;
+    right: 7%;
+    bottom: 5%;
+    background-color: #195f9e;
+    border-radius: 50%;
+    padding: 5px;
+}
+.edit1{
+    padding-top: 13px;
+    padding-left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.midElem{
+    display: flex;
+    flex-direction: column;
+}
+.spaceimg{
+    height: 500px;
+    width: 500px;
+    
+}
+.header2{
+    background:white;
+}
+select{
+    border:none;
+}
+#dropdown{
+    padding-left:13em;
+}
+#editButton{
+    padding-left:5em;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header-background">
+            <div class="image">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHmSa2cwdhi0Q/company-logo_200_200/0/1601580816436?e=1617840000&v=beta&t=NvaHza34VzedUCboarRuq3PbVVtkHVFtLT0A07Iv6fc" alt="YaarMe logo">
+            </div>
+        </header>
+        
+        <div class="description">
+            <div>
+                <h2 class="compLogo">YaarMe</h2>
+                <font color="gray">Information Technology & Service . Raipur,Chhattisgarh</font>
+                <section id="followers">5000 followers</section>
+                <p class="companyDescrip">
+                Building the world's most luxurious social media.
+                </p>
+            </div>
+            <div id="editButton">
+                <i class="far fa-edit edit1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="uprConta2">
+            <div class="header2">
+                <div id="postAlert">posted by Akash Ranjan Verma . 7/11/2020
+                </div>
+                <div class="flexContent">
+                    <img class="img-size" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHmSa2cwdhi0Q/company-logo_200_200/0/1601580816436?e=1617840000&v=beta&t=NvaHza34VzedUCboarRuq3PbVVtkHVFtLT0A07Iv6fc" alt="YaarMe logo">
+                    <div class="midElem">
+                        <section>YaarMe</section>
+                        <section>500 followers</section>
+                        <section>6mo</section>
+                    </div>
+                    <div id ="dropdown">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla libero neque eaque itaque! Nesciunt, dolores? Deserunt deleniti eaque repudiandae tempora commodi nemo doloribus tenetur ipsum hic labore. Sed, dolorem!
+                </div>
+            </div>
+
+        <!-- <div class="space"><center>
+            <img class="spaceimg" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHmSa2cwdhi0Q/company-logo_200_200/0/1601580816436?e=1617840000&v=beta&t=NvaHza34VzedUCboarRuq3PbVVtkHVFtLT0A07Iv6fc"></center> -->
+            <div class="space"></div>
+            </div>
+            <div class="edit"><i class="far fa-edit edit1"></i></div>
+        <!-- </div> -->
+       
+       
+       
+        <footer class="footerend">
+            <div>
+                <section id="bolder">YaarMe</section><br>
+                <a href="#">yaarme.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
